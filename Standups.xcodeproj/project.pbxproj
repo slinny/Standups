@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9322A6622B164FB700B9752D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 9322A6612B164FB700B9752D /* ComposableArchitecture */; };
 		937D92EC2B13DCBB00158C40 /* StandupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D92EB2B13DCBB00158C40 /* StandupsApp.swift */; };
 		937D92EE2B13DCBB00158C40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D92ED2B13DCBB00158C40 /* ContentView.swift */; };
 		937D92F02B13DCBC00158C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937D92EF2B13DCBC00158C40 /* Assets.xcassets */; };
 		937D92F32B13DCBC00158C40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937D92F22B13DCBC00158C40 /* Preview Assets.xcassets */; };
 		937D92FB2B13DD7E00158C40 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 937D92FA2B13DD7E00158C40 /* ComposableArchitecture */; };
+		937D92FD2B13DF1B00158C40 /* StandupsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D92FC2B13DF1B00158C40 /* StandupsList.swift */; };
+		937F05F92B1547B700B65F97 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F05F82B1547B700B65F97 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,8 @@
 		937D92ED2B13DCBB00158C40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		937D92EF2B13DCBC00158C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937D92F22B13DCBC00158C40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		937D92FC2B13DF1B00158C40 /* StandupsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupsList.swift; sourceTree = "<group>"; };
+		937F05F82B1547B700B65F97 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9322A6622B164FB700B9752D /* ComposableArchitecture in Frameworks */,
 				937D92FB2B13DD7E00158C40 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +63,8 @@
 				937D92ED2B13DCBB00158C40 /* ContentView.swift */,
 				937D92EF2B13DCBC00158C40 /* Assets.xcassets */,
 				937D92F12B13DCBC00158C40 /* Preview Content */,
+				937D92FC2B13DF1B00158C40 /* StandupsList.swift */,
+				937F05F82B1547B700B65F97 /* Models.swift */,
 			);
 			path = Standups;
 			sourceTree = "<group>";
@@ -87,6 +95,7 @@
 			name = Standups;
 			packageProductDependencies = (
 				937D92FA2B13DD7E00158C40 /* ComposableArchitecture */,
+				9322A6612B164FB700B9752D /* ComposableArchitecture */,
 			);
 			productName = Standups;
 			productReference = 937D92E82B13DCBB00158C40 /* Standups.app */;
@@ -146,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				937D92EE2B13DCBB00158C40 /* ContentView.swift in Sources */,
+				937D92FD2B13DF1B00158C40 /* StandupsList.swift in Sources */,
 				937D92EC2B13DCBB00158C40 /* StandupsApp.swift in Sources */,
+				937F05F92B1547B700B65F97 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +378,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9322A6612B164FB700B9752D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 937D92F92B13DD7E00158C40 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
 		937D92FA2B13DD7E00158C40 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 937D92F92B13DD7E00158C40 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
