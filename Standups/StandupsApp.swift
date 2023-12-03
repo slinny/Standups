@@ -1,17 +1,19 @@
-//
-//  StandupsApp.swift
-//  Standups
-//
-//  Created by Siran Li on 11/26/23.
-//
-
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct StandupsApp: App {
+    
+    static let store = Store(initialState: StandupsListFeature.State()) {
+        StandupsListFeature()
+            ._printChanges()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                StandupsListView(store: StandupsApp.store)
+            }
         }
     }
 }

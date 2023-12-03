@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9322A6622B164FB700B9752D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 9322A6612B164FB700B9752D /* ComposableArchitecture */; };
+		933D7BDA2B1A550F009E0F97 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 933D7BD92B1A550F009E0F97 /* ComposableArchitecture */; };
 		937D92EC2B13DCBB00158C40 /* StandupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D92EB2B13DCBB00158C40 /* StandupsApp.swift */; };
 		937D92EE2B13DCBB00158C40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D92ED2B13DCBB00158C40 /* ContentView.swift */; };
 		937D92F02B13DCBC00158C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937D92EF2B13DCBC00158C40 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		937D92FB2B13DD7E00158C40 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 937D92FA2B13DD7E00158C40 /* ComposableArchitecture */; };
 		937D92FD2B13DF1B00158C40 /* StandupsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D92FC2B13DF1B00158C40 /* StandupsList.swift */; };
 		937F05F92B1547B700B65F97 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F05F82B1547B700B65F97 /* Models.swift */; };
+		93867C002B17BB0800057FA7 /* StandupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93867BFF2B17BB0800057FA7 /* StandupForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		937D92F22B13DCBC00158C40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		937D92FC2B13DF1B00158C40 /* StandupsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupsList.swift; sourceTree = "<group>"; };
 		937F05F82B1547B700B65F97 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		93867BFF2B17BB0800057FA7 /* StandupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +37,7 @@
 			files = (
 				9322A6622B164FB700B9752D /* ComposableArchitecture in Frameworks */,
 				937D92FB2B13DD7E00158C40 /* ComposableArchitecture in Frameworks */,
+				933D7BDA2B1A550F009E0F97 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +69,7 @@
 				937D92F12B13DCBC00158C40 /* Preview Content */,
 				937D92FC2B13DF1B00158C40 /* StandupsList.swift */,
 				937F05F82B1547B700B65F97 /* Models.swift */,
+				93867BFF2B17BB0800057FA7 /* StandupForm.swift */,
 			);
 			path = Standups;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			packageProductDependencies = (
 				937D92FA2B13DD7E00158C40 /* ComposableArchitecture */,
 				9322A6612B164FB700B9752D /* ComposableArchitecture */,
+				933D7BD92B1A550F009E0F97 /* ComposableArchitecture */,
 			);
 			productName = Standups;
 			productReference = 937D92E82B13DCBB00158C40 /* Standups.app */;
@@ -155,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				937D92EE2B13DCBB00158C40 /* ContentView.swift in Sources */,
+				93867C002B17BB0800057FA7 /* StandupForm.swift in Sources */,
 				937D92FD2B13DF1B00158C40 /* StandupsList.swift in Sources */,
 				937D92EC2B13DCBB00158C40 /* StandupsApp.swift in Sources */,
 				937F05F92B1547B700B65F97 /* Models.swift in Sources */,
@@ -379,6 +386,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		9322A6612B164FB700B9752D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 937D92F92B13DD7E00158C40 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		933D7BD92B1A550F009E0F97 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 937D92F92B13DD7E00158C40 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
