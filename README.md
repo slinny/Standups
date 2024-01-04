@@ -1,1 +1,1 @@
-An app implementing the Composable Architecture. 
+An app demonstrates the Composable Architecture. 
